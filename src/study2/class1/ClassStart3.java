@@ -8,6 +8,8 @@ public class ClassStart3 {
         s1.name = "유광진";
         s1.age = 27;
         s1.grade = 90;
+
+        // 객체의 접근하기 위해 .(점, dot) 키워드 사용
         System.out.println("학생 : " + s1.name + " 나이 : " + s1.age + " 성적 : " + s1.grade);
     }
 }
