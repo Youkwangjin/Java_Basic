@@ -33,11 +33,6 @@ public class ClassStart2 {
         data.isOn = true;
     }
 
-    static void soundOff(MusicPlayerData data) {
-        System.out.println("음악 플레이어를 종료합니다.");
-        data.isOn = false;
-    }
-
     static void volumeUp(MusicPlayerData data) {
         data.volume ++;
         System.out.println("음악 플레이어 볼륨 : " + data.volume);
