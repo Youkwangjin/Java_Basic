@@ -1,4 +1,4 @@
-package study2.clas4;
+package study2.class4;
 
 public class ClassStart4 {
 
