@@ -1,4 +1,4 @@
-package study5.genegic.ex1;
+package study5.generic.ex1;
 
 /*
     1. <>를 사용한 클래스를 제네릭 클래스라 한다.

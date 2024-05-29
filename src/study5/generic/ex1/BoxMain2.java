@@ -1,4 +1,4 @@
-package study5.genegic.ex1;
+package study5.generic.ex1;
 
 public class BoxMain2 {
 

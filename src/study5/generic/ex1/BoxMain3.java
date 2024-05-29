@@ -1,4 +1,4 @@
-package study5.genegic.ex1;
+package study5.generic.ex1;
 
 public class BoxMain3 {
 
@@ -14,7 +14,7 @@ public class BoxMain3 {
         String string = stringBox.get();
         System.out.println("string = " + string);
 
-        // 타입 추론 : 생성하는 제네릭 타입 생략 가능
+        // 타입 추론 : 생성하는 제네릭 타입 생략 가능 (선언할 때는 선언 정보가 있어야 해서 생략이 불가능하다)
         GenericBox<Integer> integerGenericBox = new GenericBox<>();
     }
 }
