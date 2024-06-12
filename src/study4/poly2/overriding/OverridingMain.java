@@ -21,5 +21,13 @@ public class OverridingMain {
         System.out.println("parent -> child");
         System.out.println("value = " + poly.value); // 변수는 오버라이딩이 되자 않는다.
         poly.method(); // 메서드는 오버라이딩이 된다. (오버라이딩 된 메서드는 항상 우선권을 가진다.)
+
+        // 자식 변수는 부모 타입을 참조할 수 없다.
+        // Child child1 = new Parent();
+
+        // 부모 타입은 상속 받은 자식의 손자 타입 까지 참조 할 수 있다.
+        Parent poly2 = new GrandSon();
+        System.out.println("parent -> GrandSon");
+        poly2.method();
     }
 }

@@ -7,7 +7,7 @@ public class Child extends Parent {
     // 메서드 오버라이딩
     @Override
     public void method() {
-        // super.method(); 상위 클래스에 메서드를 호출 (메서드 오버라이딩이라고 하기엔 애매모호 하다.)
+        // super.method(); 상위 클래스에 메서드를 호출
         System.out.println("Child method");
     }
 }
