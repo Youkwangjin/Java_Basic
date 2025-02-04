@@ -1,14 +1,14 @@
 package study5.generic.ex2;
 
-public class Box<T> {
+public class Box <T> {
 
     private T value;
 
-    public void set(T value) {
+    public void setValue(T value) {
         this.value = value;
     }
 
-    public T get() {
+    public T getValue() {
         return value;
     }
 }

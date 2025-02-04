@@ -4,11 +4,10 @@ public class StringBox {
 
     private String value;
 
-    public void set(String value) {
+    public void setValue(String value) {
         this.value = value;
     }
-
-    public String get() {
+    public String getValue() {
         return value;
     }
 }

@@ -8,18 +8,19 @@ public class AnimalMain1 {
 
     public static void main(String[] args) {
         Animal animal = new Animal("동물", 0);
-        Dog dog = new Dog("멍멍이", 100);
-        Cat cat = new Cat("냐옹이", 50);
-        
-        // 제네릭 타입 사용 (선언부에는 타입 설정을 해줘야해서 생략이 불가능하다.)
+        Dog dog = new Dog("댕댕이", 100);
+        Cat cat = new Cat("야옹이", 50);
+
         Box<Dog> dogBox = new Box<>();
-        dogBox.set(dog);
-        Dog findDog = dogBox.get();
-        System.out.println("findDog: " + findDog);
+        dogBox.setValue(dog);
+        System.out.println(dogBox.getValue().getName());
+        Dog findDog = dogBox.getValue();
+        System.out.println("findDog : " + findDog.getName());
 
         Box<Cat> catBox = new Box<>();
-        catBox.set(cat);
-        Cat findCat = catBox.get();
-        System.out.println("findCat: " + findCat);
+        catBox.setValue(cat);
+        System.out.println(catBox.getValue().getName());
+        Cat findCat = catBox.getValue();
+        System.out.println("findCat: " + findCat.getName());
     }
 }

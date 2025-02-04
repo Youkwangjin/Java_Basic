@@ -19,14 +19,11 @@ public class Animal {
     }
 
     public void sound() {
-        System.out.println("The animal is sound");
+        System.out.println("동물 울음 소라");
     }
 
     @Override
     public String toString() {
-        return "Animal{" +
-                "name='" + name + '\'' +
-                ", size=" + size +
-                '}';
+        return "Animal [name=" + name + ", size=" + size + "]";
     }
 }
